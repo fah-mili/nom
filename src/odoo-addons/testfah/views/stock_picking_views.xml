@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_picking_form" model="ir.ui.view">
+        <field name="name">stock.picking.form.inherited.l10n_pt_stock</field>
+        <field name="model">stock.picking</field>
+        <field name="priority">101</field>
+        <field name="inherit_id" ref="stock.view_picking_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//field[@name='origin']" position="after">
+                <field name="vehicle_id"/>
+                <field name="res_partner_fafafah"/>
+            </xpath>
+
+            
+        </field>
+    </record>
+</odoo>
