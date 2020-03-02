@@ -11,5 +11,5 @@ class ResCompany(models.Model):
     code = fields.Char(
         help='Company unique code',
         string='Code',
-        required=True
+        # required=True
     )
