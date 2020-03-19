@@ -10,7 +10,8 @@
     'category': 'Referential',
 
     'depends': [
-        'base'
+        'base',
+        'l10n_be',
     ],
 
     'data': [
